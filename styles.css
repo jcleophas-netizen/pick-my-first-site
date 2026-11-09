@@ -1,0 +1,44 @@
+
+body {
+  background-color: gray;
+  font-family: Poppins, sans-serif;
+  font-size: 18px;
+}
+
+h1, h2 {
+  color: red;
+  font-family: Poppins, sans-serif;
+}
+
+#about-me,
+#my-hobbies-and-interest {
+  padding: 10px;
+  margin: auto;
+}
+
+.note {
+  color: crimson;
+}
+
+nav li {
+  display: flex;
+  gap: 10px;
+}
+
+
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+
+  nav li {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  #about-me,
+  #my-hobbies-and-interest {
+    padding: 5px;
+  }
+}
+
